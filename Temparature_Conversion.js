@@ -10,13 +10,13 @@ let number = prompt("Enter a number: ");
 
 switch (number ){
     case 1:
-        let temparature = prompt("Enter Temparature in Farenheit");
+        var temparature = prompt("Enter Temparature in Farenheit");
         if (temparature <=212 && temparature>=100){
             farenheit(temparature);
         }
         break;
     case 2:
-        let temparature = prompt("Enter Temparature in Celsius");
+        var temparature = prompt("Enter Temparature in Celsius");
         if (temparature <=32 && temparature>=0){
             celsius(temparature);
         }
